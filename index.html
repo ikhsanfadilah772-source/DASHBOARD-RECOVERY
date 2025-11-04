@@ -1,7 +1,55 @@
-<iframe 
-  src="https://script.google.com/macros/s/AKfycbzvASTHg60THH38I4qAA2JwZI3USt1iUmOH5_olZ8OoC_KtjwL-Eph_ytgr2Pbl8SSk/exec" 
-  width="100%" 
-  height="800" 
-  frameborder="0"
-  style="border: none;">
-</iframe>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Recovery - Multi View</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f2f5;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+      color: #333;
+    }
+    .iframe-container {
+      margin: 20px auto;
+      max-width: 1200px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: white;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Login Page</h2>
+  <div class="iframe-container">
+    <iframe src="https://script.google.com/macros/s/AKfycbzvASTHg60THH38I4qAA2JwZI3USt1iUmOH5_olZ8OoC_KtjwL-Eph_ytgr2Pbl8SSk/exec?page=login"></iframe>
+  </div>
+
+  <h2>Dashboard Rank RH</h2>
+  <div class="iframe-container">
+    <iframe src="https://script.google.com/macros/s/AKfycbzvASTHg60THH38I4qAA2JwZI3USt1iUmOH5_olZ8OoC_KtjwL-Eph_ytgr2Pbl8SSk/exec?page=dashboard"></iframe>
+  </div>
+
+  <h2>Recovery Stock</h2>
+  <div class="iframe-container">
+    <iframe src="https://script.google.com/macros/s/AKfycbzvASTHg60THH38I4qAA2JwZI3USt1iUmOH5_olZ8OoC_KtjwL-Eph_ytgr2Pbl8SSk/exec?page=stock"></iframe>
+  </div>
+
+  <h2>Index RH & Area</h2>
+  <div class="iframe-container">
+    <iframe src="https://script.google.com/macros/s/AKfycbzvASTHg60THH38I4qAA2JwZI3USt1iUmOH5_olZ8OoC_KtjwL-Eph_ytgr2Pbl8SSk/exec?page=index"></iframe>
+  </div>
+
+</body>
+</html>
